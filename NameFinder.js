@@ -12,7 +12,7 @@ if (!name) {
     casper.echo('please provide a word').exit(1);
 }
 
-casper.start('http://google.fr/', function() {
+casper.start('www.google.com/?hl=en', function() {
     // search for entered name in google form
     this.fill('form[action="/search"]', { q: name }, true);
 });
