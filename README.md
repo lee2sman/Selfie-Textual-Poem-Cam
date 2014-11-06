@@ -10,8 +10,15 @@ the Processing Sketch turns on the camera, runs pixelation and threshholding and
 that creates the image from the text in newfile.txt.
 In essence, you are creating a selfie made out of text found about you in a google search.
 
+Use 'w' and 's' to increase or decrease threshholding.
+This program runs best if you get your face quite close.
+
+Take a screenshot with the spacebar (images are saved in the data folder).
+
 v 1 Alpha
 This is not intended as a final version. I would like to convert this to P5.JS.
+And I would like to output the images as text files instead of screenshot pngs.
+
 
 A huge thanks to all my School For Poetic Computation teacher and fellow artists/coders for ideas, inspiration,
 help fixing bugs and in writing code when I got stuck.
